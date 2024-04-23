@@ -1,0 +1,142 @@
+body {
+  background-color: #094e67;
+  font-family: field-gothic-compact, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  background-image: url(/img/website-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+#content {
+  width: calc(100%-40px);
+  overflow: hidden;
+  margin-top: 6%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: solid 1px #094e67;
+  font-family: field-gothic-compact, sans-serif;
+  background-color: aliceblue;
+  height: 100%;
+}
+
+.navbar {
+  background-color: aliceblue;
+  overflow: hidden;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  left: 0;
+  width: 100%;
+  /* Full width */
+  height: fit-content;
+  display: flex;
+
+  box-shadow: 0px 3px black;
+
+}
+
+.nvb {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  width: 50%;
+  vertical-align: middle;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 0.5%;
+  margin: 3px;
+  text-align: center;
+  height: 56px;
+  line-height: 56px;
+
+  a:link {
+    border-radius: 10px;
+
+    color: #094e67;
+    text-decoration: none;
+    padding-left: 6px;
+    padding-right: 6px;
+
+
+  }
+
+  a:visited {
+    color: #094e67;
+    text-decoration: none;
+    padding-left: 6px;
+    padding-right: 6px;
+
+  }
+
+  a:hover {
+    color: pink;
+    text-decoration: none;
+    transform: scale(1.15);
+    background-color: #094e67;
+    padding-left: 6px;
+    padding-right: 6px;
+
+
+  }
+
+  a:active {
+    color: pink;
+    text-decoration: none;
+    padding-left: 6px;
+    padding-right: 6px;
+
+
+  }
+}
+
+
+a:link {
+  color: darcyan
+}
+
+a:visited {
+  color: darkcyan
+}
+
+a:hover {
+  color: pink
+}
+
+a:active {
+  color: hotpink
+}
+
+.minor-section {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #A0A0A0;
+  border-radius: 10px;
+}
+
+.minor-section h2 {
+  font-size: 1.2em;
+}
+
+/* Set the image to be responsive */
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
