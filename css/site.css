@@ -59,6 +59,8 @@ h2 {
 
   box-shadow: 4px 4px black, 9px 7px black;
 
+  text-underline-offset: 1em;
+
 }
 
 .nvb {
