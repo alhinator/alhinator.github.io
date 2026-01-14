@@ -1,0 +1,20 @@
+{
+  "name": "alhinator.github.io",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "homepage": "https://github.com/alhinator/alhinator.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/alhinator/alhinator.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alhinator/alhinator.github.io.git"
+  },
+  "license": "UNLICENSED",
+  "author": "alhinator",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  }
+}

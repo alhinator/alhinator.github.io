@@ -7,6 +7,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow: hidden;
+  padding: 0;
+  margin:0;
 }
 
 #page-container {
@@ -25,23 +28,14 @@ h2 {
   font-weight: lighter;
 }
 
-#content {
-  width: calc(100%-40px);
+#phaser-game {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
-  margin-top: 6%;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
-  border: solid 1px #094e67;
-  font-family: field-gothic-compact, sans-serif;
-  background-color: aliceblue;
-  height: 100%;
-  border-radius: 3px;
-  text-align:left;
-  a:hover{
-    background-color:#094e67;
-  }
+  border: #094e67;
+  border-width: 10px;
 }
 
 .navbar {
@@ -60,7 +54,6 @@ h2 {
   box-shadow: 4px 4px black, 9px 7px black;
 
   text-underline-offset: 1em;
-
 }
 
 .nvb {
@@ -86,8 +79,6 @@ h2 {
     text-decoration: none;
     padding-left: 6px;
     padding-right: 6px;
-
-
   }
 
   a:visited {
@@ -95,7 +86,6 @@ h2 {
     text-decoration: none;
     padding-left: 6px;
     padding-right: 6px;
-
   }
 
   a:hover {
@@ -105,8 +95,6 @@ h2 {
     background-color: #094e67;
     padding-left: 6px;
     padding-right: 6px;
-
-
   }
 
   a:active {
@@ -114,32 +102,29 @@ h2 {
     text-decoration: none;
     padding-left: 6px;
     padding-right: 6px;
-
-
   }
 }
 
-
 a:link {
-  color: darkcyan
+  color: darkcyan;
 }
 
 a:visited {
-  color: darkcyan
+  color: darkcyan;
 }
 
 a:hover {
-  color: pink
+  color: pink;
 }
 
 a:active {
-  color: hotpink
+  color: hotpink;
 }
 
 .minor-section {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #A0A0A0;
+  border: solid 1px #a0a0a0;
   border-radius: 10px;
 }
 
